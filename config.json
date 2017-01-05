@@ -2,12 +2,12 @@
   "group": [
     {
       "sundry": {
-        "id": "web-F211",
-        "name": "web前端开发",
-        "link": "https://zhuanlan.zhihu.com/web-F211",
-        "description": "一技在手，天下我有！交流群：278163749",
-        "icourl": "https://pic1.zhimg.com/4961065af8e372a7bed6084f37bdcd8c_r.jpeg",
-        "dist": "/workspace/output/vpscao2.xml"
+        "id": "study-fe",
+        "name": "前端学习指南",
+        "link": "https://zhuanlan.zhihu.com/study-fe",
+        "description": "求知若饥，虚心似谷",
+        "icourl": "https://pic1.zhimg.com/626d03f4fa1021d46dec5b5bbc5163d8_r.jpeg",
+        "dist": ""
       }
     }
   ]
