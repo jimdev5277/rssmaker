@@ -31,7 +31,7 @@ const grabWeb = function () {
                     let detailc = titleImage + contenItem.content.replace(/src=\\?"(.*?)\.(jpg|png|jpeg|bmp|gif)\\?"/g, 'src="https://pic1.zhimg.com/' + '$1' + '.' + '$2' + '"');
                     items.push({
                         title: contenItem.title,
-                        link: 'https://zhuanlan.zhihu.com/study-fe' + '/' + contenItem.url + '?refer=' + 'study-fe',
+                        link: 'https://zhuanlan.zhihu.com' + contenItem.url + '?refer=' + config.id,
                         author: contenItem.author.name,
                         pubDate: contenItem.publishedTime,
                         description: detailc
