@@ -3,11 +3,7 @@
     {
       "sundry": {
         "id": "study-fe",
-        "name": "前端学习指南",
-        "link": "https://zhuanlan.zhihu.com/study-fe",
-        "description": "求知若饥，虚心似谷",
-        "icourl": "https://pic1.zhimg.com/626d03f4fa1021d46dec5b5bbc5163d8_r.jpeg",
-        "dist": ""
+        "dist": "./stf.xml"
       }
     }
   ]
