@@ -96,17 +96,14 @@ const aryToXml = (items, baseInfo, configItem, callback) => {
     });
 };
 
-// let j = schedule.scheduleJob('*/3 * * * *', function () {
-// for (let elem of config.group) {
-//     grabWeb(elem.summary);
-// }
-async.mapLimit(config.group, 5, function (elem, callback) {
-    grabWeb(elem.summary, callback);
-}, function (err, result) {
-    if (err) {
-        throw new Error(err);
-    }
-    console.log('final!');
-});
+let j = schedule.scheduleJob('*/3 * * * *', function () {
+    async.mapLimit(config.group, 5, function (elem, callback) {
+        grabWeb(elem.summary, callback);
+    }, function (err, result) {
+        if (err) {
+            throw new Error(err);
+        }
+        console.log('final!');
+    });
 
-// });
+});
