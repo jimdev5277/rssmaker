@@ -14,6 +14,7 @@
   "author": "jimdev5277",
   "license": "ISC",
   "dependencies": {
+    "async": "^2.4.1",
     "data2xml": "^1.2.5",
     "fs": "0.0.1-security",
     "node-schedule": "^1.2.0",

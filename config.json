@@ -1,9 +1,15 @@
 {
   "group": [
     {
-      "sundry": {
+      "summary": {
         "id": "study-fe",
-        "dist": "./stf.xml"
+        "dist": "./dist/stf.xml"
+      }
+    },
+    {
+      "summary": {
+        "id": "yingquanshijie",
+        "dist": "./dist/yingquanshijie.xml"
       }
     }
   ]
