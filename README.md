@@ -11,7 +11,7 @@ yarn install
 ![专栏截图](./md/md-20170525103733.png)
 最后执行
 ```
-npm start
+node index
 ```
 增加守护进程,防止程序挂掉
 ```
